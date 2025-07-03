@@ -127,7 +127,7 @@ export default function Home() {
               </svg>
               <span className="sr-only">Loading...</span>
             </div>
-            <span>Waiting for connection...</span>
+            <span>Waiting for connection....</span>
           </div>
         ) : status === "success" ? (
           <h1 className="font-[Poppins] text-2xl font-light text-[#2D2D31]">
